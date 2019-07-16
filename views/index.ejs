@@ -1,0 +1,12 @@
+
+
+<ul class="missions">
+<%marsMissions.forEach(function(mission, id){%>
+	<a href="/marsMissions/<%=id%>">
+		<li><%id%><%=mission.name%></li>
+	</a>
+
+<%});%>
+</ul>
+
+
